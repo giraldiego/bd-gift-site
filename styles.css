@@ -61,3 +61,7 @@ p {
   border: 6px solid white;
   border-radius: 10px;
 }
+
+.gift-img:hover {
+  background-image: url("images/happy.gif"); /* alt="red gift box with a yellow ribbon"; */
+}
