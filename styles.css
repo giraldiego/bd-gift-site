@@ -78,15 +78,25 @@ p {
   background-image: url("images/badass.gif"); /* alt="red gift box with a yellow ribbon"; */
 }
 
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers.gif"); /* alt="red gift box with a yellow ribbon"; */
+}
+
 
 
 /*
 Challenge:
-Create the "genius" and "badass" GIFt sections.
+Create the "cheers" GIFt section.
 
-Texts:
-If I had to describe you with ONE word 👇
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
 
-The only person as badass as you 💪
-
+Text: 
+This one's for you, my friend 🥂
 */
