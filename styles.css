@@ -94,6 +94,7 @@ p {
 #footer {
   width: 400px;
   margin: 40px auto 20px;
+  font-style: italic;
 }
 
 #footer-link {
