@@ -53,18 +53,11 @@ p {
 }
 
 .gift-img {
+  background-image: url("images/gift-cover.jpg"); /* alt="red gift box with a yellow ribbon"; */
+  background-size: cover;
   width: 400px;
+  height: 400px;
+  margin: 0px auto;
   border: 6px solid white;
   border-radius: 10px;
 }
-
-/*
-Challenge:
-1. Create a "gift-section" <div> that will wrap
-   all the elements for the first gift.
-2. Add the <h2>, <h3>, and <img> elements, and
-   give all of them their own classes.
-3. Style the elements according to the design.
-
-PS: the image should be 400px wide.
-*/
