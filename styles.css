@@ -45,11 +45,11 @@ p {
 }
 
 .gift-title {
-  margin: 0px 0px 10px;
+  margin-bottom: 10px;
 }
 
 .gift-hint {
-  margin: 0px 0px 10px;
+  margin-top: 0px;
 }
 
 .gift-img {
