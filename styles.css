@@ -52,7 +52,7 @@ p {
   margin-top: 0px;
 }
 
-.gift-img {
+#gift-img {
   background-image: url("images/gift-cover.jpg"); /* alt="red gift box with a yellow ribbon"; */
   background-size: cover;
   width: 400px;
@@ -62,6 +62,37 @@ p {
   border-radius: 10px;
 }
 
-.gift-img:hover {
+#gift-img:hover {
   background-image: url("images/happy.gif"); /* alt="red gift box with a yellow ribbon"; */
 }
+
+#reaction-img {
+  background-image: url("images/gift-cover.jpg"); /* alt="red gift box with a yellow ribbon"; */
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#reaction-img:hover {
+  background-image: url("images/hot.gif"); /* alt="red gift box with a yellow ribbon"; */
+}
+
+
+
+
+
+/*
+Challenge:
+Create the next GIFt (hot.gif). Its HTML structure 
+should be like the previous one, but without the 
+"gift-hint" element.
+
+However, now that you have multiple GIFts on the page,
+you cannot use the "gift-img" class to set the GIF 
+background-image(s) on :hover. Each GIFt will need a 
+unique id that controls which background image that 
+should be shown when hovering over the element.
+*/
