@@ -52,7 +52,7 @@ p {
   margin-top: 0px;
 }
 
-#gift-img {
+.gift-img {
   background-image: url("images/gift-cover.jpg"); /* alt="red gift box with a yellow ribbon"; */
   background-size: cover;
   width: 400px;
@@ -62,21 +62,11 @@ p {
   border-radius: 10px;
 }
 
-#gift-img:hover {
+#gift-img-happy:hover {
   background-image: url("images/happy.gif"); /* alt="red gift box with a yellow ribbon"; */
 }
 
-#reaction-img {
-  background-image: url("images/gift-cover.jpg"); /* alt="red gift box with a yellow ribbon"; */
-  background-size: cover;
-  width: 400px;
-  height: 400px;
-  margin: 0px auto;
-  border: 6px solid white;
-  border-radius: 10px;
-}
-
-#reaction-img:hover {
+#gift-img-hot:hover {
   background-image: url("images/hot.gif"); /* alt="red gift box with a yellow ribbon"; */
 }
 
