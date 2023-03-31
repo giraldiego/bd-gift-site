@@ -19,17 +19,19 @@ h1, h2, h3, h4, p {
     width: 150px;
     border: 6px solid #EFB0C9;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-h2, h4 {
+#bd-age {
     background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 0px 10px;
 }
 
-/*
-Challenge:
-First, wrap the HTML elements in a <div> with an 
-id called "header".
-
-Then, select the "header" and use flexbox to achieve
-the layout you've been provided in the design slide.
-*/
+#bd-date {
+    margin: 0px;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
